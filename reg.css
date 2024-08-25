@@ -1,37 +1,4 @@
-/* Responsive Design */
-
-@media only screen and (max-width: 768px) {
-  .rgform {
-    max-width: 300px;
-  }
-  .hd {
-    font-size: 18px;
-  }
-  .rgform input[type="text"], .rgform input[type="tel"], .rgform input[type="email"], .rgform input[type="password"] {
-    padding: 8px;
-    margin-bottom: 15px;
-  }
-  .rgform input[type="submit"] {
-    padding: 8px 15px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .rgform {
-    max-width: 250px;
-  }
-  .hd {
-    font-size: 14px;
-  }
-  .rgform input[type="text"], .rgform input[type="tel"], .rgform input[type="email"], .rgform input[type="password"] {
-    padding: 6px;
-    margin-bottom: 10px;
-  }
-  .rgform input[type="submit"] {
-    padding: 6px 10px;
-  }
-}
-    body {
+body {
       background-image: url(bg1.jpg);
     background-image: no-repeat;
       background-size: cover;
@@ -140,3 +107,38 @@
     {
       display:flex;
     }
+
+
+    /* Responsive Design */
+
+@media only screen and (max-width: 768px) {
+  .rgform {
+    max-width: 300px;
+  }
+  .hd {
+    font-size: 18px;
+  }
+  .rgform input[type="text"], .rgform input[type="tel"], .rgform input[type="email"], .rgform input[type="password"] {
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  .rgform input[type="submit"] {
+    padding: 8px 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .rgform {
+    max-width: 250px;
+  }
+  .hd {
+    font-size: 14px;
+  }
+  .rgform input[type="text"], .rgform input[type="tel"], .rgform input[type="email"], .rgform input[type="password"] {
+    padding: 6px;
+    margin-bottom: 10px;
+  }
+  .rgform input[type="submit"] {
+    padding: 6px 10px;
+  }
+}
